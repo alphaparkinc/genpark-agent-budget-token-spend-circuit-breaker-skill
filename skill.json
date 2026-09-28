@@ -1,0 +1,34 @@
+{
+  "name": "genpark-agent-budget-token-spend-circuit-breaker-skill",
+  "version": "1.0.0",
+  "description": "Autonomous financial circuit breaker tracking real-time token burn and cost velocity with automated throttling and emergency freeze.",
+  "category": "Service",
+  "author": "AlphaPark",
+  "tags": [
+    "circuit-breaker",
+    "token-budget",
+    "cost-guard",
+    "rate-limiting",
+    "finops",
+    "zero-dependency",
+    "mcp"
+  ],
+  "tools": [
+    {
+      "name": "record_usage",
+      "description": "Record token usage and evaluate circuit breaker trip state."
+    },
+    {
+      "name": "get_status",
+      "description": "Fetch current budget consumption and trip state."
+    },
+    {
+      "name": "reset",
+      "description": "Manually reset circuit breaker for new session."
+    },
+    {
+      "name": "run_benchmark_circuit_breaker",
+      "description": "Run circuit breaker verification benchmark."
+    }
+  ]
+}
